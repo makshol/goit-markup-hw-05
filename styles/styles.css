@@ -141,6 +141,8 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -180,6 +182,8 @@ address {
   text-decoration: none;
   display: flex;
   align-items: center;
+  transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list {
@@ -242,6 +246,8 @@ address {
 
 .portfolio-card-link {
   display: block;
+  transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-card-link:hover,
 .portfolio-card-link:focus {
@@ -269,6 +275,9 @@ address {
   border: none;
   padding: 6px 22px;
   border-radius: 4px;
+  transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .button-portfolio.active {
@@ -389,6 +398,8 @@ address {
   border-radius: 50%;
   text-decoration: none;
   color: #afb1b8;
+  transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-network-link:hover,
@@ -419,10 +430,13 @@ address {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
+  transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
   fill: currentColor;
+  
 }
 
 .clients-link:hover,
@@ -475,6 +489,9 @@ address {
   font-weight: 400;
   line-height: 1.71;
   text-decoration: none;
+  transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .tel-footer {
@@ -483,6 +500,8 @@ address {
   font-weight: 400;
   line-height: 24px;
   text-decoration: none;
+  transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-footer:hover,
 .mail-footer:focus,
